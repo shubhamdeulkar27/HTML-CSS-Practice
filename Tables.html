@@ -3,10 +3,66 @@
   <head>
     <meta charset="UTF-8" />
     <title>HTML Tables</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        padding: 15px;
+      }
+      th {
+        text-align: left;
+      }
+      table {
+        border-spacing: 5px;
+      }
+    </style>
   </head>
   <body>
     <div>
       <h3>Table</h3>
+      <p>
+        HTML tables allow web developers to arrange data into rows and columns.
+      </p>
+      <p>The table tag defines an HTML table.</p>
+      <p>
+        Each table row is defined with a tr tag. Each table header is defined
+        with a th tag. Each table data/cell is defined with a td tag.
+      </p>
+    </div>
+    <div>
+      <table style="width: 100%;">
+        <caption>
+          User Data
+        </caption>
+        <tr>
+          <th>FirstName</th>
+          <th>LastName</th>
+          <th>EmailId</th>
+          <th colspan="2">Number</th>
+          <th>Gender</th>
+        </tr>
+        <tr>
+          <td>Shubham</td>
+          <td>Deulkar</td>
+          <td>shubhamdeulkar27@gmail.com</td>
+          <td>1532156646646584854</td>
+          <td>42216516515616584681531564</td>
+          <td>male</td>
+        </tr>
+        <tr>
+          <td>Shriniwas</td>
+          <td>Nakka</td>
+          <td>shri@gmail.com</td>
+          <td>42216516515616584681531564</td>
+          <td>1532156646646584854</td>
+          <td>male</td>
+        </tr>
+      </table>
     </div>
   </body>
 </html>
