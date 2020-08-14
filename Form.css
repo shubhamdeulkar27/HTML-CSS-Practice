@@ -1,0 +1,24 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 150px;
+  margin-right: 150px;
+  padding: 20px;
+  border: solid black 1px;
+  background-color: white;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgba(200, 245, 255, 0.5);
+  position: relative;
+}
+.header {
+  width: 100%;
+  height: auto;
+  background-color: blue;
+  color: white;
+}
