@@ -1,0 +1,293 @@
+#body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 100%;
+  border: 1px solid rgb(173, 170, 170);
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+#header {
+  height: 60px;
+  width: 100%;
+}
+#headertop {
+  height: 10px;
+  width: 100%;
+  background-color: black;
+}
+
+.headermain {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 40px;
+  width: 95%;
+  margin-left: 2%;
+}
+.title {
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+.logout {
+  margin-top: 15px;
+  font-size: 18px;
+}
+.link {
+  color: black;
+}
+
+.number {
+  align-self: center;
+  font-size: 50px;
+
+  margin-top: 30px;
+}
+
+.question {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  align-self: center;
+  color: black;
+}
+.messagemain {
+  width: 90%;
+  height: 400px;
+  background-color: rgb(219, 217, 217);
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 60px;
+}
+.tomessagediv {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 30px;
+  margin-top: 30px;
+}
+select {
+  width: 300px;
+  height: 50px;
+  border-color: rgba(0, 0, 0, 0.3);
+  font-size: 20px;
+}
+#numberorname {
+  opacity: 0.4;
+}
+.messagebox {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 30px;
+}
+
+textarea {
+  margin-left: 10px;
+  width: 750px;
+  height: 150px;
+  outline: none;
+  border-color: rgba(0, 0, 0, 0.3);
+}
+::selection {
+  outline: none !important;
+}
+
+#phototext {
+  margin-left: 175px;
+  margin-top: 10px;
+}
+#link {
+  color: black;
+  font-size: 15px;
+  opacity: 0.7;
+}
+.messagesend {
+  margin-left: 175px;
+  margin-top: 20px;
+  height: 60px;
+  width: 100%;
+}
+.send {
+  height: 60px;
+  width: 200px;
+  background-color: rgb(185, 184, 184);
+  border: none;
+  font-size: 20px;
+}
+
+#scheduletext {
+  opacity: 0.5;
+}
+
+#schedule {
+  color: black;
+}
+
+.navmain {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.navoptions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 50%;
+}
+.navoptioncolor {
+  background-color: rgb(221, 220, 220);
+  border: 1px solid rgb(170, 170, 170);
+}
+.passwordtext {
+  color: black;
+  margin-right: 20px;
+}
+.recent {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  width: 200px;
+  border-bottom: none;
+}
+.all {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  width: 180px;
+}
+.photos {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  width: 70px;
+}
+.conversationmain {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(221, 220, 220);
+}
+.conversionmaintop {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+#conversationsmaincss {
+  margin-left: 2%;
+  margin-right: 2%;
+  position: relative;
+}
+#unknownnumber {
+  font-size: 25px;
+}
+#savelink {
+  font-size: 16px;
+  opacity: 0.5;
+}
+#allconversations {
+  font-size: 30px;
+}
+.messagesend1 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.msgboxtwodiv {
+  width: 80%;
+  height: 70px;
+}
+.msgboxtwo {
+  width: 100%;
+  height: 50px;
+  margin-left: 0px;
+}
+
+.sendtwo {
+  text-align: center;
+  background-color: rgb(185, 184, 184);
+  width: 150px;
+  height: 50px;
+}
+.sendtwotext {
+  line-height: 50px;
+}
+.scheduledmsg {
+  width: 100%;
+  height: 50px;
+  margin-top: 20px;
+  text-align: center;
+  background-color: rgb(185, 184, 184);
+  line-height: 50px;
+}
+
+.msgcontact {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.day {
+  opacity: 0.2;
+}
+.message {
+  background-color: rgb(211, 210, 210);
+  width: 67%;
+  padding: 10px;
+  padding: 15px;
+}
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid rgb(211, 210, 210);
+  margin-left: 15px;
+}
+.you {
+  justify-self: right;
+  text-align: right;
+  font-style: italic;
+}
+.youdiv {
+  margin-left: 96%;
+}
+.youmessage {
+  margin-left: 30%;
+}
+.loadmessage {
+  background-color: rgb(185, 184, 184);
+  width: 40%;
+
+  text-align: center;
+  margin: 5%;
+  margin-left: 30%;
+  padding: 10px;
+}
+.load {
+  font-size: 20px;
+}
+.loadtext {
+  opacity: 0.5;
+}
+.footer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 12px;
+  opacity: 0.5;
+  margin-top: 10px;
+}
