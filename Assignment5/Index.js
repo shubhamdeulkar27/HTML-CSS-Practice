@@ -103,4 +103,52 @@ $(document).ready(function () {
       $(this).css("color", "white");
     }
   );
+  $(".header-bottom-top-content").hover(
+    function () {
+      $(this).css("border-right", "solid gray 1px");
+      $(this).css("border-left", "solid gray 1px");
+    },
+    function () {
+      $(this).css("border", "white 1px solid");
+    }
+  );
+  $(".aboutus-btn").hover(
+    function () {
+      $(this).css("box-shadow", "2px 2px 5px black");
+    },
+    function () {
+      $(this).css("box-shadow", "none");
+    }
+  );
+  $("#about-btn").click(function () {
+    window.location.assign("#about-us");
+  });
+  $(".service-content-item").hover(
+    function () {
+      $(this).css("background-color", "rgb(255, 95, 83)");
+      $(this).css("color", "white");
+    },
+    function () {
+      $(this).css("background-color", "white");
+      $(this).css("color", "black");
+    }
+  );
+  $("#service-btn").click(function () {
+    window.location.assign("#serivce-main");
+  });
+  $("#project-btn").click(function () {
+    window.location.assign("#project-main");
+  });
+  $(".project-options-btn").hover(
+    function () {
+      $(this).css("background-color", "rgb(255, 95, 83)");
+      $(this).css("color", "white");
+      $(this).css("border-bottom", "solid white 1px");
+    },
+    function () {
+      $(this).css("background-color", "white");
+      $(this).css("color", "black");
+      $(this).css("border-bottom", "solid black 1px");
+    }
+  );
 });
